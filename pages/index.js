@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import VisualizarPage from './visualizarPage';
+import Header from './Header';
 
 export default function Home() {
   return (
@@ -9,32 +11,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className={styles.header}>
-
-          <ul className={styles.headerLinks}>
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="">Visualizar Vôos</a>
-            </li>
-            <li>
-              <a href="">Atualizar Vôo</a>
-            </li>
-            <li>
-              <a href="">Deletar Vôo</a>
-            </li>
-          </ul>
-        <h1 className={styles.title}>
-          Central de Controle de Vôos
-        </h1>
-
-      </header>
+      <Header />
 
       <main>
 
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
+          <a href="/visualizarPage" className={styles.card}>
             <h3>Visualizar Vôos </h3>
           </a>
 

@@ -1,0 +1,69 @@
+    .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #DDD;
+  }
+  
+  .table th {
+    text-align: left;
+    background-color: #F9F9F9;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(odd) {
+    background-color: #FFF;
+  }
+  
+  .table tr:hover {
+    background-color: #F5F5F5;
+  }
+  
+/* cada coluna!!! */
+  .voo {
+    width: 80px;
+  }
+  
+  .companhia {
+    width: 150px;
+  }
+  
+  .destino {
+    width: 250px;
+  }
+  
+  .portao {
+    width: 60px;
+  }
+  
+  .hora {
+    width: 80px;
+  }
+  
+  .observacao {
+    width: 200px;
+  }
